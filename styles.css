@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:navy;
+}
+#main{
+    background-image:url('https://i.pinimg.com/736x/b0/22/de/b022de6f406a38e65d4baf07b09f460d.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 55vh;
+    width: 30vw;
+    background-color:rgba(105, 105, 238, 0.232);
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+#login{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    height: 5vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color:wheat;
+    text-shadow: 
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;;
+}
+#login:hover{
+    color: gold;
+}
+#box1{
+    height: 5vh;
+    width: 24vw;
+    background-color: antiquewhite;
+    border-radius: 40px;
+    position: relative;
+    top: 100px;
+    left: 35px;
+    display: flex;
+    align-items: center;
+}
+#box1:hover{
+    background-color: white;
+}
+#username{
+    color:cadetblue;
+    position: relative;
+    left: 10px;
+}
+#username:hover{
+    color: black;
+}
+#box1 #username input{
+    height: 5vh;
+    width: 24vw;
+    background-color: antiquewhite;
+    border: 0px;
+    left: -10px;
+    border-radius: 40px;
+    padding-left: 10px;
+}
+#box2{
+    height: 5vh;
+    width: 24vw;
+    margin-top: 40px;
+    background-color: antiquewhite;
+    border-radius: 40px;
+    position: relative;
+    top: 100px;
+    left: 35px;
+    display: flex;
+    align-items: center;
+}
+#box2:hover{
+    background-color: white;
+}
+#password{
+    color:cadetblue;
+    position: relative;
+    left: 10px;
+}
+#password:hover{
+    color: black
+}
+#box2 #password input{
+    height: 5vh;
+    width: 24vw;
+    background-color: antiquewhite;
+    border: 0px;
+    left: -10px;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+#rememberme{
+    display: flex;
+    position: relative;
+    left: 5%;
+    top: 28%;
+    cursor: pointer;
+}
+label{
+    position: relative;
+    left: 6%;
+    color: antiquewhite;
+}
+#forget{
+    text-align: center;
+    position: relative;
+    top: 24%;
+    left: 25%;
+    color: rgb(190, 245, 245);
+    cursor: pointer;
+}
+#forget:hover{
+    text-decoration: underline;
+    color: white;
+}
+#button{
+    height: 5vh;
+    width: 10vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    top: 35%;
+    left: 32%;
+    color: white;
+    font-family: sans-serif;
+}
+#button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#credits{
+    text-align: center;
+    position: relative;
+    top: 38%;
+    right: 5px;
+    color:rgb(56, 56, 236);
+}
+#credits em{
+    color: chartreuse;
+}

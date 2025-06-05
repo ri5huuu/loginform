@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="main">
+        <div id="box">
+            <div id="login">
+                <strong>Humble.</strong>
+            </div>
+            <div id="box1">
+                <div id="username">
+                    <input type="text" placeholder="username" list="usernames" id="username" required minlength="6" maxlength="16"/>
+                    <datalist id="usernames">
+                        <option value="ravi"></option>
+                        <option value="aditya"></option>
+                        <option value="sunny"></option>
+                        <option value="johnson"></option>
+                    </datalist>
+                </div>
+            </div>
+            <div id="box2">
+                <div id="password">
+                    <input type="text" placeholder="password" id="username" required minlength="8"/>
+                </div>
+            </div>
+                <div id="rememberme">
+                    <input type="checkbox" name="remember me" id="rememberme" value="remember me"/>
+                    <label for="checkbox">remember me</label>
+                </div>
+            <div id="forget">
+                <p>forgot password?</p>
+            </div>
+            <div id="button">
+                <strong>login</strong>
+            </div>
+            <div id="credits">
+                <p>Made by <em>Ravi Prakash</em></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
